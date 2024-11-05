@@ -1,0 +1,7 @@
+.validation-summary-errors {
+    color: #dc3545;
+}
+
+.form-control {
+    border: 1px solid #dc3545;
+}

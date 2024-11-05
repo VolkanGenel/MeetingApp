@@ -27,3 +27,4 @@
 /Users/sezaigenel/Desktop/aspdotnet/aspnetcore-dersleri-udemy/MeetingApp/obj/Debug/net7.0/MeetingApp.RazorAssemblyInfo.cs
 /Users/sezaigenel/Desktop/aspdotnet/aspnetcore-dersleri-udemy/MeetingApp/bin/Debug/net7.0/libman.json
 /Users/sezaigenel/Desktop/aspdotnet/aspnetcore-dersleri-udemy/MeetingApp/bin/Debug/net7.0/MeetingApp.staticwebassets.runtime.json
+/Users/sezaigenel/Desktop/aspdotnet/aspnetcore-dersleri-udemy/MeetingApp/obj/Debug/net7.0/MeetingApp.sourcelink.json

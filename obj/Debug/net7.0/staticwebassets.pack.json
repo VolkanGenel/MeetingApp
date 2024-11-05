@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "/Users/sezaigenel/Desktop/aspdotnet/aspnetcore-dersleri-udemy/MeetingApp/wwwroot/css/styles.css",
+      "PackagePath": "staticwebassets/css/styles.css"
+    },
+    {
       "Id": "/Users/sezaigenel/Desktop/aspdotnet/aspnetcore-dersleri-udemy/MeetingApp/wwwroot/lib/bootstrap/css/bootstrap-grid.css",
       "PackagePath": "staticwebassets/lib/bootstrap/css/bootstrap-grid.css"
     },

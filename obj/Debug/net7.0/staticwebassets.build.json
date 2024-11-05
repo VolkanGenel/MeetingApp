@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kOzj1Q22+W8W7ZQm9+PnmKG942Zwt9fxJ9GTi9W9j1E=",
+  "Hash": "9SDHwHKCIshScxQXrE62b0WHF63ijZ2ASXdCr9DgTnI=",
   "Source": "MeetingApp",
   "BasePath": "_content/MeetingApp",
   "Mode": "Default",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "/Users/sezaigenel/Desktop/aspdotnet/aspnetcore-dersleri-udemy/MeetingApp/wwwroot/css/styles.css",
+      "SourceId": "MeetingApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sezaigenel/Desktop/aspdotnet/aspnetcore-dersleri-udemy/MeetingApp/wwwroot/",
+      "BasePath": "_content/MeetingApp",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/styles.css"
+    },
     {
       "Identity": "/Users/sezaigenel/Desktop/aspdotnet/aspnetcore-dersleri-udemy/MeetingApp/wwwroot/lib/bootstrap/css/bootstrap-grid.css",
       "SourceId": "MeetingApp",

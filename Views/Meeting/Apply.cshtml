@@ -4,9 +4,10 @@
 }
 <h1 class="h4 text-center">Toplantı Katılım Formu</h1>
 @* form action default olarak tıklandığında get metodu olarak çalışır. Buton vasıtasıyla gerçekleşir. method=post olarak değiştirdik hiç yazılmasaydı get anlamına gelirdi. Post olarak butona tıklayınca çalışmadı. Çünkü mevcut MeetingControllerda post metodu yok. Forum action yazmazsak aynı metot kullanılır (default: action="/Meeting/Apply"). Biz farklı bir url ve metot yazarak başka metodu aktive etmeliyiz.*@
-<form method="post" action="/Meeting/Apply">
+<form method="post" action="/Meeting/Apply" novalidate> @*novalidate yazarak form içinde konrol yapmamasını söyledik çümkü model içinde kontrol yaptık*@
+    <div asp-validation-summary="All"></div>
     <div class="mb-3">
-        @* label for kullanıyorduk.Şimdi model göndereceğiz asp-for yaptık.Modelde veri tipi yazdoğı için artık inpput type=text e de ihtiyacımız yok *@
+        @* label for kullanıyorduk.Şimdi model göndereceğiz asp-for yaptık.Modelde veri tipi yazdığı için artık inpput type=text e de ihtiyacımız yok *@
         <label asp-for="Name" class="form-label">Name</label>
         <input asp-for="Name" class="form-control">
         @*input for="Name" class="form-control" type="text" name="Name" id="Name">*@
@@ -24,6 +25,7 @@
         <div class="mb-3">
         <label asp-for="WillAttend" class="form-label">Attendence</label>
         <select asp-for="WillAttend" class="form-select">
+            <option value="">Seçiniz</option>
             <option value="true">Evet Geliyorum</option>
             <option value="false">Hayır Gelmiyorum</option>
         </select>
